@@ -1,0 +1,4 @@
+#!/bin/bash
+for NAMES in $(cat names.txt); do
+    echo "My Family $NAMES"
+done
